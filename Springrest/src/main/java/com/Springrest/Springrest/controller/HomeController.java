@@ -18,6 +18,7 @@ import com.Springrest.Springrest.entities.Course;
 import com.Springrest.Springrest.services.CourseService;
 
 @RestController
+
 public class HomeController {
 
 	@Autowired

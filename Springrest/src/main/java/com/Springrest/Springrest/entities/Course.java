@@ -1,20 +1,24 @@
+
 package com.Springrest.Springrest.entities;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Course {
 	
+	@Id
 	private long id;
 	private String title;
 	private String description;
-	public Course(long id, String title, String description) {
+		public Course(long id, String title, String description) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.description = description;
 	}
-	
 
-
-	public Course() {
+		public Course() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
